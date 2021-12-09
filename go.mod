@@ -34,13 +34,13 @@ require (
 	github.com/gin-gonic/gin v1.7.2
 	github.com/go-contrib/uuid v1.2.0
 	github.com/go-test/deep v1.0.7 // indirect
-	github.com/hashicorp/consul/api v1.4.0 // indirect
 	github.com/hashicorp/vault/api v1.0.5-0.20201001211907-38d91b749c77 // indirect
 	github.com/hashicorp/vault/sdk v0.1.14-0.20201109203410-5e6e24692b32 // indirect
 	github.com/influxdata/influxdb v1.7.4 // indirect
-	github.com/jimmytuc/krakend-opencensus v1.4.2-0.20211208125850-6e54898952b7
+	github.com/jimmytuc/krakend-opencensus v1.5.0-alpha.1
 	github.com/kpacha/opencensus-influxdb v0.0.0-20181102202715-663e2683a27c // indirect
 	github.com/luraproject/lura v1.4.1
+	github.com/newrelic/newrelic-opencensus-exporter-go v0.4.0 // indirect
 	github.com/pelletier/go-toml v1.7.0 // indirect
 	github.com/prometheus/common v0.11.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
@@ -50,6 +50,8 @@ require (
 	gocloud.dev/secrets/hashivault v0.21.0 // indirect
 )
 
-
 replace github.com/hashicorp/vault => github.com/hashicorp/vault v1.4.2
+
 replace github.com/gregjones/httpcache v0.0.0-20190611155906-901d90724c79 => github.com/m4ns0ur/httpcache v0.0.0-20200426190423-1040e2e8823f
+
+// replace github.com/devopsfaith/krakend-opencensus => github.com/jimmytuc/krakend-opencensus v1.5.0-alpha.1

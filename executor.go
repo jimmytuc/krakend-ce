@@ -26,6 +26,7 @@ import (
 	_ "github.com/jimmytuc/krakend-opencensus/exporter/datadog"
 	_ "github.com/jimmytuc/krakend-opencensus/exporter/influxdb"
 	_ "github.com/jimmytuc/krakend-opencensus/exporter/jaeger"
+	_ "github.com/jimmytuc/krakend-opencensus/exporter/newrelic"
 	_ "github.com/jimmytuc/krakend-opencensus/exporter/ocagent"
 	_ "github.com/jimmytuc/krakend-opencensus/exporter/prometheus"
 	_ "github.com/jimmytuc/krakend-opencensus/exporter/stackdriver"
